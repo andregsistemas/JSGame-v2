@@ -1,6 +1,6 @@
 const elementoChute = document.getElementById('chute')
 
-window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+window.SpeechRecognition = window.SpeechRecognition /*|| window.webkitSpeechRecognition*/;
 const recognition = new SpeechRecognition();
 const numero = document.getElementById('box');
 
