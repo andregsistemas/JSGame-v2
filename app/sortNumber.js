@@ -1,6 +1,6 @@
 const menorValor = 1;
 const maiorValor = 1000;
-const numeroSecreto = gerarNumeroAleatorio();
+let numeroSecreto = gerarNumeroAleatorio();
 
 const elementoMenorValor = document.getElementById('menor-valor');
 const elementoMaiorvalor = document.getElementById('maior-valor');

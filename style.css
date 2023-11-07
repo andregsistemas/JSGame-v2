@@ -4,6 +4,7 @@
     --font-family: 'Montserrat', sans-serif;
     --bg-color: #04364A;
     --primary-color:#64CCC5;
+    --hover-color: #48948f;
 }
 
 body {
@@ -43,4 +44,19 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar {
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    color: var(--bg-color);
+    margin-top: 20px;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn-jogar:hover {
+    background-color: var(--hover-color);
 }
